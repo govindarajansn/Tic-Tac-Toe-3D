@@ -34,7 +34,7 @@ function GameInfo({ gameBoard, nextTurn, winner, resetGameBoard }) {
             gameBoard.every(x => x === null)
               ? null
               :
-              <span className='reset-btn'>SELECT</span>
+              <span className='reset-btn'>RESET</span>
           }
         </div>
       </div>
