@@ -1,0 +1,93 @@
+/* Add styles here */
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+}
+
+.title h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 160px;
+  text-align: center;
+  margin: auto;
+  white-space: nowrap;
+  padding-bottom: 13px;
+}
+
+.title h1:before {
+  background-color: #0c114d;
+  content: '';
+  display: block;
+  height: 3px;
+  width: 75px;
+  margin-bottom: 5px;
+}
+
+.title h1:after {
+    background-color: #0c114d;
+    content: '';
+    display: block;
+    margin-left: 170px;
+    /* position: absolute; */
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 75px;
+    margin-bottom: 0.25em;
+}
+
+.reset-btn {
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  padding: 10px 30px 10px 30px;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 .2em gray;
+  cursor: pointer;
+
+}
+
+.reset-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: .2em;
+}
+
+
+.textBottomSection {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.winnerMove {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.restartButton {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
